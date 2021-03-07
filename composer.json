@@ -1,0 +1,32 @@
+{
+    "name": "attitude/phpx",
+    "description": "JSX templates for PHP",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Adamko",
+            "email": "attitude@users.noreply.github.com"
+        }
+    ],
+    "scripts": {
+        "watch": "php src/watch.php",
+        "serve": "php -S localhost:8888 -t examples"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/attitude/php"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Phpx\\Jsx\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8",
+        "attitude/php": "dev-main"
+    }
+}
