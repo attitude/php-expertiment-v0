@@ -1,5 +1,7 @@
 # PHPX — JSX for PHP8
 
+> Originally published under [attitude/phpx](https://github.com/attitude/phpx) repository. Both projects tackle similar problem, but with different approach. This repository is a fork of the original project with a goal to make available the original codebase for educational purposes.
+
 **⚠️ Experimental project**
 
 Lets enhance the PHP syntaxt with JSX. Core principles:
@@ -92,7 +94,7 @@ return Jsx::jsx('h1', [
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/attitude/phpx"
+            "url": "https://github.com/attitude/phpx-markup-expetiment.git"
         }
     ],
     "scripts": {
